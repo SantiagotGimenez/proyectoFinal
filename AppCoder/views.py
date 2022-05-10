@@ -1,8 +1,6 @@
 from unicodedata import name
 from django.shortcuts import render
 from django.http import HttpResponse
-from AppCoder.models import Curso
-from AppCoder.forms import cursoFormulario
 # Create your views here.
 def curso(self):
     
